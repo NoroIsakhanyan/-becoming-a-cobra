@@ -46,5 +46,4 @@ int finder(std::string nfile,int lowerbound)
 int main(){
 	std::string file_name = "main.txt";
 	std::cout << finder(file_name,1) ;
-	//std::cout << range(bits,min,50);
 }
