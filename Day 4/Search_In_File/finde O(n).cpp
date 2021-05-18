@@ -14,7 +14,10 @@ const size_t min = 1;
 int finder(std::string& fname){
 	std::fstream file;
 	file.open(fname);
-​
+​	int num;
+	file >> num;
+	size_t curr = num-min;
+	bits.set(curr);
 	file.close();
 
 	//Find with O(n) complexity
